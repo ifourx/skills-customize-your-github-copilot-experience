@@ -2,6 +2,9 @@
   "name": "Python 3",
   "runArgs": ["--net=host"],
   "image": "mcr.microsoft.com/devcontainers/base:jammy",
+  "mounts": [
+    "source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,readonly"
+  ],
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
       "version": "lts"
