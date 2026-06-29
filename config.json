@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "python-data-structures",
+      "title": "Python Data Structures",
+      "description": "List comprehensions, dictionary operations, set operations, and an inventory manager",
+      "path": "assignments/python-data-structures",
+      "dueDate": "2026-07-13",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
